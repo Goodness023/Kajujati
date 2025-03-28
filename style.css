@@ -1,0 +1,706 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Top section of the header with logo and navigation */
+header .top {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: red; */
+  padding-top: 10px;
+  width: 95%;
+  margin: auto;
+}
+
+/* Header title styling */
+header .top h5 {
+  color: black;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+/* Right side of the top header (navigation links) */
+header .top .top-right {
+  display: flex;
+  gap: 25px;
+  cursor: pointer;
+}
+
+/* Hover effect for navigation links */
+header .top .top-right i:hover {
+  color: coral;
+}
+
+/* Hero section with background image */
+header .hero {
+  background-image: url("./images/mid-century-modern-living-room-interior-design-with-monstera-tree.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 20px;
+  border-radius: 15px;
+  height: 100vh;
+}
+
+/* Hero section text container */
+header .hero .flex {
+  padding-left: 32rem;
+  padding-top: 40px;
+  color: #ffffff;
+}
+
+/* Small text in hero section */
+header .hero .flex p {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* Main heading in hero section */
+header .hero .flex h2 {
+  font-size: 5.8rem;
+  position: relative;
+  right: 5rem;
+  bottom: 35px;
+}
+
+header .hero .flex span {
+  position: relative;
+  left: 9rem;
+  bottom: 45px;
+}
+
+/* Call-to-action button container in hero section */
+header .hero .btn {
+  padding-left: 30px;
+  padding-bottom: 30px;
+  margin-top: 15rem;
+}
+
+header .hero .btn .down {
+  margin-top: 5px;
+}
+
+/* Button styling */
+header .hero button {
+  color: #ffffff;
+  background-color: transparent;
+  border-radius: 30px;
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+}
+
+/* Hover effect for hero section button */
+header .hero button:hover {
+  background-color: burlywood;
+  color: black;
+}
+
+/* First section layout */
+main .first-sect {
+  width: 95%;
+  margin: auto;
+}
+
+/* First section top area */
+main .first-sect .top {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Description text in first section */
+main .first-sect .top p {
+  color: gray;
+}
+
+main .first-sect .top-text h4 {
+  font-size: 2rem;
+  margin-top: 5px;
+}
+
+main .first-sect .top h6 {
+  font-size: 26px;
+}
+
+main .first-sect .down {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8rem;
+  color: gray;
+  text-align: center;
+}
+
+main .first-sect .down h3 {
+  color: black;
+  font-size: 5rem;
+}
+
+/* Second section layout */
+main .second-sect {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Image in second section */
+main .second-sect img {
+  width: 100%;
+  height: 100vh;
+  border-radius: 15px;
+}
+
+main .second-sect .image-container {
+  width: 46%;
+  height: 30vh;
+  margin-top: 8rem;
+}
+
+main .second-sect .right-content {
+  margin-top: 12rem;
+}
+
+main .second-sect .right-content h4 {
+  font-size: 4.5rem;
+}
+
+main .second-sect .right-content p {
+  margin: 15px 0 30px;
+  color: gray;
+  font-size: 25px;
+}
+
+main .second-sect .right-content button {
+  color: black;
+  padding: 10px 40px;
+  border-radius: 20px;
+  font-size: 15px;
+  border: 1px solid black;
+  background: transparent;
+  font-weight: 800;
+}
+
+main .second-sect .right-content button:hover {
+  background-color: blanchedalmond;
+  color: darkgray;
+}
+
+main .third-sect {
+  width: 95%;
+  margin: auto;
+}
+
+main .third-sect .flex {
+  margin-top: 20rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+main .third-sect .flex h4 {
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+main .third-sect .flex span {
+  font-size: 20px;
+  color: gray;
+}
+
+main .third-sect .flex button {
+  padding: 15px 60px;
+  border-radius: 30px;
+  border: 1px solid black;
+  color: black;
+  font-size: 15px;
+  background-color: transparent;
+  margin-right: 3rem;
+}
+
+main .third-sect .flex button:hover {
+  background-color: antiquewhite;
+  color: cadetblue;
+}
+
+/* Third section grid layout */
+main .third-sect .grid-images img {
+  width: 100%;
+  height: 100vh;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+main .third-sect .grid-images .image-container {
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+}
+
+main .third-sect .grid-images {
+  padding-top: 3rem;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+main .third-sect .grid-images .image-text {
+  padding-top: 2rem;
+}
+
+main .third-sect .grid-images h6 {
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+main .third-sect .grid-images .down-image .drag {
+  background-color: transparent;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 1px solid black;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 12px;
+  position: center;
+  margin-left: 120px;
+  margin-top: 25px;
+  transform: rotate(35deg);
+}
+
+main .third-sect .grid-images .down-img {
+  margin-top: 90px;
+}
+
+main .third-sect .grid-images h5 {
+  font-size: 15px;
+  font-weight: 800;
+}
+
+main .third-sect .grid-images span {
+  color: gray;
+}
+
+/* Fourth section styling */
+main .fourth-sect {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8rem;
+}
+
+main .fourth-sect .right-sect img {
+  width: 100%;
+  height: 100vh;
+  border-radius: 20px;
+}
+
+main .fourth-sect .right-sect {
+  width: 55%;
+  height: 30vh;
+}
+
+main .fourth-sect .left-sect {
+  padding-left: 20px;
+}
+
+main .fourth-sect .left-sect h2 {
+  margin: 15rem 0 1rem;
+  font-size: 3.3rem;
+}
+
+main .fourth-sect .left-sect p {
+  font-size: 18px;
+  color: gray;
+}
+
+main .fourth-sect .left-sect button {
+  margin-top: 2rem;
+  padding: 15px 35px;
+  border-radius: 30px;
+  background-color: transparent;
+  border: 1px solid black;
+  font-weight: 100;
+}
+
+main .fourth-sect .left-sect button:hover {
+  background-color: blanchedalmond;
+  color: darkgray;
+}
+
+main .fifth-sect {
+  padding-top: 15rem;
+  /* width: 95%;
+  margin: auto; */
+  display: flex;
+  justify-content: space-between;
+}
+
+main .fifth-sect img {
+  width: 100%;
+  height: 100vh;
+}
+
+main .fifth-sect .left-image {
+  width: 50%;
+  height: 50vh;
+}
+
+main .fifth-sect .left-image img {
+  border-radius: 20px 0 0 20px;
+}
+
+main .fifth-sect .right-image {
+  background-image: url("./images/pexels-atomlaborblog-776120.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 100vh;
+  border-radius: 0 20px 20px 0;
+  text-align: right;
+  color: #ffffff;
+  padding-right: 50px;
+  padding-top: 60px;
+}
+
+main .fifth-sect .right-image h3 {
+  font-size: 3rem;
+}
+
+main .fifth-sect .right-image p {
+  padding-top: 20px;
+  font-weight: 100;
+}
+
+main .fifth-sect .right-image button {
+  margin-top: 30px;
+  padding: 12px 40px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: #ffffff;
+}
+
+main .fifth-sect .right-image button:hover {
+  background-color: blanchedalmond;
+  color: darkgray;
+}
+
+main .sixth-sect {
+  width: 90%;
+  margin: auto;
+  font-size: 20rem;
+  color: gray;
+  letter-spacing: 10px;
+}
+
+main .seventh-sect {
+  width: 95%;
+  margin: auto;
+  padding-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+main .seventh-sect h4 {
+  padding-bottom: 20px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+main .seventh-sect p {
+  color: gray;
+  font-size: 20px;
+}
+
+main .seventh-sect .right ul {
+  display: flex;
+  gap: 70px;
+  list-style: none;
+  text-decoration: none;
+}
+
+main .seventh-sect .right ul a {
+  text-decoration: none;
+  color: gray;
+  font-size: 20px;
+}
+
+main .seventh-sect .right ul a:hover {
+  color: chocolate;
+}
+
+/* Footer section layout */
+footer .flex {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: baseline;
+  margin-top: 3rem;
+}
+
+footer .flex .icon a {
+  text-decoration: none;
+  color: grey;
+  margin-top: 7rem;
+}
+
+footer .flex .icon i {
+  padding-top: 10px;
+}
+
+footer .flex .icon i:hover {
+  color: black;
+}
+
+footer .flex p {
+  padding-top: 5px;
+  color: grey;
+}
+
+footer .flex .text h5 {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+footer .flex .text span {
+  color: grey;
+}
+
+footer .flex .text .tel h5 {
+  margin-top: 1rem;
+}
+
+@media (max-width: 1024px) {
+  header .hero .btn {
+    margin-top: 2rem;
+  }
+
+  main .first-sect .top p {
+    font-size: 8px;
+  }
+
+  main .first-sect .top-text h4 {
+    font-size: 1rem;
+  }
+
+  main .first-sect .top h6 {
+    font-size: 18px;
+  }
+
+  main .first-sect .down h3 {
+    font-size: 4rem;
+  }
+
+  main .first-sect .down span {
+    font-size: 12px;
+  }
+
+  main .second-sect {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main .second-sect .image-container {
+    width: 100%;
+    height: 30vh;
+    margin-top: 7rem;
+    position: relative;
+  }
+
+  main .second-sect .right-content {
+    position: absolute;
+    text-align: center;
+    left: 10rem;
+    /* background-color: red; */
+  }
+
+  main .second-sect .right-content h4 {
+    font-size: 4rem;
+    margin-top: -5rem;
+    /* background-color: red; */
+  }
+
+  main .second-sect .right-content p {
+    color: white;
+    font-size: 20px;
+  }
+
+  main .second-sect .right-content button {
+    margin-top: 11rem;
+  }
+
+  main .third-sect {
+    width: 95%;
+    margin: auto;
+  }
+
+  main .third-sect .flex {
+    margin-top: 55rem;
+  }
+
+  main .third-sect .grid-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  main .fourth-sect .left-sect h2 {
+    margin: 7rem 0 1rem;
+    font-size: 2.5rem;
+  }
+
+  main .fourth-sect .left-sect p {
+    font-size: 13px;
+  }
+
+  main .fifth-sect{
+    padding-top: 55rem;
+  }
+
+  main .sixth-sect {
+    font-size: 14rem;
+  }
+
+  main .seventh-sect h4 {
+    font-size: 20px;
+  }
+
+  main .seventh-sect p {
+    color: gray;
+    font-size: 15px;
+  }
+
+  main .seventh-sect .right ul a {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 765px) {
+  header .hero .btn {
+    margin-top: 1rem;
+  }
+
+  main .first-sect .top {
+    margin-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  main .first-sect .top p {
+    font-size: 25px;
+  }
+
+  main .first-sect .top-text h4 {
+    font-size: 3.5rem;
+  }
+
+  main .first-sect .top h6 {
+    font-size: 30px;
+    font-weight: 100;
+    text-align: justify;
+  }
+
+  main .first-sect .down h3 {
+    font-size: 2.5rem;
+  }
+
+  main .first-sect .down span {
+    font-size: 11px;
+  }
+
+  main .second-sect {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main .second-sect .image-container {
+    width: 100%;
+    height: 30vh;
+    margin-top: 7rem;
+    position: relative;
+  }
+
+  main .second-sect .right-content {
+    position: absolute;
+    text-align: center;
+    left: 1rem;
+    /* background-color: red; */
+  }
+
+  main .second-sect .right-content h4 {
+    font-size: 2rem;
+    margin-top: -5rem;
+    /* background-color: red; */
+  }
+
+  main .third-sect .flex {
+    margin-top: 40rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  main .third-sect .flex h4 {
+    font-size: 1rem;
+    font-weight: 800;
+  }
+
+  main .third-sect .flex span {
+    font-size: 12px;
+  }
+
+  main .third-sect .flex button {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+
+  main .fourth-sect .left-sect h2 {
+    margin: 7rem 0 1rem;
+    font-size: 1.3rem;
+  }
+
+  main .fifth-sect {
+    padding-top: 35rem;
+  }
+
+  main .fifth-sect .right-image h3 {
+    font-size: 1.1rem;
+  }
+
+  main .fifth-sect .right-image p {
+    font-size: 16px;
+  }
+
+  main .fifth-sect .right-image button {
+    padding: 10px 20px;
+    font-size: 10px;
+  }
+
+  main .sixth-sect {
+    font-size: 5.2rem;
+  }
+
+  main .seventh-sect .right ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  footer .flex {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8rem;
+  }
+
+  footer .flex div p {
+    margin: 1rem 0;
+  }
+
+  footer .flex .text-last h5 {
+    margin-top: 15px;
+  }
+}
